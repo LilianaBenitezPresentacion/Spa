@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #96cfbe;
+    --secondary-color: #8ba888;
+    --accent-color: #c8b6a6;
+    --light-color: #f5f0e6;
+    --dark-color: #3a4a42;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.presentation-card {
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    background: white;
+}
+
+.header-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+    color: white;
+    padding: 40px 30px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid var(--light-color);
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.header-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.header-section h4 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 6px;
+    color: white;
+    background-color: var(--secondary-color);
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.social-icons a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.social-icons .whatsapp { background-color: #25D366; }
+.social-icons .facebook { background-color: #3b5998; }
+.social-icons .instagram { background-color: #E1306C; }
+.social-icons .linkedin { background-color: #0077B5; }
+
+
+.section-title {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.benefit-item {
+    background-color: var(--light-color);
+    border-left: 4px solid var(--secondary-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+.btn-contact {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.btn-contact:hover {
+    background-color: var(--dark-color);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    margin-right: 15px;
+}
+
+.testimonial {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+}
+
